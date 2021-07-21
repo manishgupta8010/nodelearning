@@ -18,5 +18,6 @@ module.exports = {
     Address: require('./models/Address'),
     Book: require('./models/Book'),
     Publisher: require('./models/Publisher'),
+    Task: require('./models/Task'),
     Author: require('./models/Author')
 };

@@ -6,6 +6,10 @@ module.exports = Object.freeze({
     LOGIN_FAILURE: "Sorry for inconvenience! Facing something wrong while processing your request.",
     UPDATE_PASSWORD_SUCCESS: "Your password is successfully updated.",
     UPDATE_PASSWORD_FAILURE: "Sorry for inconvenience! Facing something wrong while processing your request.",     
-    DELETE_SUCCESS: "record deleted successfully"
+    DELETE_SUCCESS: "record deleted successfully",
+    SUCCESS: "created successfully",
+    STATUS_UPDATED_SUCCESS: "status updated successfully",
+    UPDATE_SUCCESS:"Record updated "
+    
 });
 
