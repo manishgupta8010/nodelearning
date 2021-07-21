@@ -1,0 +1,153 @@
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/register HTTP/1.1
+Content-type: application/json
+
+{
+   "email":"admin11@gmail.com",
+   "password":"123456"
+}
+
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/login HTTP/1.1
+Content-type: application/json
+
+{
+    "email":"admin11@gmail.com",
+    "password":"123456"
+}
+
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/addressToHex HTTP/1.1
+Content-type: application/json
+
+{
+    "address":"TNPeeaaFB7K9cmo4uQpcU32zGK8G1NYqeL"
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/createBook HTTP/1.1
+Content-type: application/json
+
+{
+    "title":"Herry potter",
+    "desc":"this is good book for student's"
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/createAuthor HTTP/1.1
+Content-type: application/json
+
+{
+    "title":"Herry potter",
+    "desc":"this is good book for student's"
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/getAuthorList HTTP/1.1
+Content-type: application/json
+
+{
+    "keyWord": "",
+    "pageNo": 1,
+    "size": 10
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/createAddress HTTP/1.1
+Content-type: application/json
+
+{
+    "address1":"asdfasfdasdfasdf",
+    "address2":"asdfasfdasdfasfdasdfasfd",
+    "userId":"5fcb4bda69a0741852e1d6d0"
+}
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/getAddressList HTTP/1.1
+Content-type: application/json
+
+{
+    "keyWord": "",
+    "pageNo": 1,
+    "size": 10
+}
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/getAddressListByUserid HTTP/1.1
+Content-type: application/json
+
+{
+    "keyWord": "",
+    "pageNo": 1,
+    "size": 10
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/createPublisher HTTP/1.1
+Content-type: application/json
+
+{
+    "name":"pierson",
+    "address":"awesome publisher",
+    "mobile":151251455
+}
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/updatePublisher HTTP/1.1
+Content-type: application/json
+
+{
+    "id": "60f7ff1fee7452148be2ca69",
+    "name":"mTyra",
+    "address":"good publisher",
+    "mobile":786788778
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/getPublisherList HTTP/1.1
+Content-type: application/json
+
+{
+    "keyWord": "",
+    "pageNo": 1,
+    "size": 10
+}
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/getAllPublisher HTTP/1.1
+Content-type: application/json
+
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/updatePublisherStatus HTTP/1.1
+Content-type: application/json
+
+{
+    "id": "60f7ff1fee7452148be2ca69"
+    
+}
+
+
+
+### Term and condition API 
+POST http://localhost:5000/api/v1/deletePublisher HTTP/1.1
+Content-type: application/json
+
+{
+    "id": "60f80261ee7452148be2ca74"
+    
+}
